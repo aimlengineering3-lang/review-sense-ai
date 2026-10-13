@@ -94,7 +94,7 @@ class Config:
 
     @property
     def CHECKPOINT_FILE(self):
-        return self.CHECKPOINT_DIR / "best_model.pth"
+        return self.FINAL_MODEL_DIR / "review_sense_ai.pth"
 
     # ==========================================================
     # OUTPUT DIRECTORIES
