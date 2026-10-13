@@ -1,0 +1,26 @@
+# Virtual environment
+RSAI-venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Data (too large, not source code)
+data/
+
+# Models and outputs
+models/
+outputs/
+*.pth
+*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors / env / OS
+.vscode/
+.env
+.DS_Store
+Thumbs.db
